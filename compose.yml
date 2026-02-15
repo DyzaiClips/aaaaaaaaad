@@ -1,7 +1,7 @@
 services:
 
   php: 
-    image:  php:8.3-apache-bullseye
+    image: php:8.3-apache-bullseye
     volumes:
     - ./:/var/www/html
     expose:
